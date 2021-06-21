@@ -1,0 +1,23 @@
+git init - Empezar en la carpeta un repositorio
+git add ¨NombreArchivo¨ - Para que el repositorio sepa que existe el archivo (arrancar el archivo)
+git commit -m ¨comentario, por ejemplo versión 1¨ - con esto se guarda en la base de datos el archivo con un comentario para posteriormente identificar
+
+git add . - con este comando agregas al repositorio todos los archivos que hayan cambiado dentro de la carpeta donde estoy ubicado
+git commit -m ¨comentario, por ejemplo version 2 ¨ - con esto se guarda en la base de datos el archivo con un comentario para posteriormente identificar
+git status - Con este comando si se ha hecho un cambio pero no se ha añadido ahi saldra
+git show - Mostrara todos los cambios historicos que se han hecho
+git log ¨NombreArchivo¨ - Mostrara los cambios historicos de un archivo
+git push - Enviar hacia otro repositorio remoto lo que se ha hecho
+git pull - Puedo traer de un repositorio remoto
+touch ¨NombreArchivo¨ - Crear archivo vacio
+cat ¨NombreArchivo¨ - Visualizar contenido de un archivo
+history - ver todos los comandos que se han puesto en consola
+!¨numero comando¨ - luego de ver el historial de comandos que se han digitado con el comando history puedo seleccionar el comando con !72
+¨comando¨ --help - para ver las opciones y como funcionan cada uno de los comandos
+git rm ¨NombreArchivo¨ - Comando para verificar opciones de borrado
+git rm --cached ¨NombreArchivo¨ - No borra el archivo del equipo, pero lo devuelve al estado inicial, es decir esta ahi pero no se ha enviado al repositorio, esta en RAM
+git config - ver todas opciones de configuración de git
+git config --list - comando para ver las configuraciones que tengo actualmente en el git
+git config --list --show-origin -  comando para ver donde estan las configuraciones guardadas
+git config --global user.name ¨Harley Herrera¨ - comando para cambiar el usuario global de git
+git config --global user.email ¨harleyherrera@gmail.com¨ - comando para configurar el email del usuario
