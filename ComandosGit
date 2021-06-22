@@ -21,3 +21,7 @@ git config --list - comando para ver las configuraciones que tengo actualmente e
 git config --list --show-origin -  comando para ver donde estan las configuraciones guardadas
 git config --global user.name ¨Harley Herrera¨ - comando para cambiar el usuario global de git
 git config --global user.email ¨harleyherrera@gmail.com¨ - comando para configurar el email del usuario
+git diff ¨Numero de Commit1¨ ¨Numero de Commit¨ Ver diferencias entre dos versiones del archivo
+checkout - traer los ultimos cambios o ciertos cambios o los cambios de cierta version que necesites que ya estan en el repositorio
+git reset "Numero de Commit" --hard - volvera a la version del commit que hayamos seleccionado reseteara todo a esa version
+git reset "Numero de Commit" --soft - volvera a una version, pero se matendran los ca,bios que esten en stagen
