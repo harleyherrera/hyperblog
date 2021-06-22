@@ -28,4 +28,10 @@ git reset "Numero de Commit" --soft - volvera a una version, pero se matendran l
 git log --stat se ven los cambios especificos que se hicieron en cuales archivos a partir del commit
 git checkout "Numero de Commit" - comando para ver como era el archivo antes
 git reset HEAD - comando para sacar archivos del staging
+git clone URL - Se trae una copia del master al directorio de trabajo local y creo la copia de todos los cambios historicos en el repositorio local
+git push - Enviar todo al servidor remoto
+git fetch - me trae las actualizaciones que se han hecho en el repositorio remoto, sin embargo, no me lo copia en mi directorio sino que queda en el repositorio local
+git merge - me pasa las ultimas actualizaciones del repositorio local descargadas del repositorio remoto con git fetch al directorio de trabajo
+git pull - baja directamente del repositorio remoto al repositorio local y ademas me pasa los cambios directamente a mi directorio de trabajo hace todo en uno sin necesidad del git fetch y el git merge
+
 
