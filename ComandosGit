@@ -33,5 +33,7 @@ git push - Enviar todo al servidor remoto
 git fetch - me trae las actualizaciones que se han hecho en el repositorio remoto, sin embargo, no me lo copia en mi directorio sino que queda en el repositorio local
 git merge - me pasa las ultimas actualizaciones del repositorio local descargadas del repositorio remoto con git fetch al directorio de trabajo
 git pull - baja directamente del repositorio remoto al repositorio local y ademas me pasa los cambios directamente a mi directorio de trabajo hace todo en uno sin necesidad del git fetch y el git merge
-
+git commit -am "comentario del commmit"  - Con este comando se hace el add y el commit en un solo paso, sin embargo solo funciona para archivos que previamete ya se les ha hecho un commit, es decir que para archivos completamente nuevos no funciona
+git branch "nombre de la rama" - crear una nueva rama
+git checkout "nombre de la rama" - moverme a otra rama
 
