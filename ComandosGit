@@ -24,4 +24,8 @@ git config --global user.email ¨harleyherrera@gmail.com¨ - comando para config
 git diff ¨Numero de Commit1¨ ¨Numero de Commit¨ Ver diferencias entre dos versiones del archivo
 checkout - traer los ultimos cambios o ciertos cambios o los cambios de cierta version que necesites que ya estan en el repositorio
 git reset "Numero de Commit" --hard - volvera a la version del commit que hayamos seleccionado reseteara todo a esa version
-git reset "Numero de Commit" --soft - volvera a una version, pero se matendran los ca,bios que esten en stagen
+git reset "Numero de Commit" --soft - volvera a una version, pero se matendran los cambios que esten en staging
+git log --stat se ven los cambios especificos que se hicieron en cuales archivos a partir del commit
+git checkout "Numero de Commit" - comando para ver como era el archivo antes
+git reset HEAD - comando para sacar archivos del staging
+
